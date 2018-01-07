@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jbpm-configuration>
+
+  <import resource="activiti.default.cfg.xml" />
+  <import resource="activiti.businesscalendar.cfg.xml" />
+  <!--  Spring with jBPM -->
+  <import resource="activiti.tx.spring.cfg.xml" />
+  <import resource="activiti.jpdl.cfg.xml" />
+  <import resource="activiti.bpmn.cfg.xml" />
+  <!-- <import resource="jbpm.identity.cfg.xml" /> -->
+  <transaction-context>
+     <object class="test.activiti.service.impl.MesIdentitySessionImpl"/>
+  </transaction-context>      
+  <!-- Job executor is excluded for running the example test cases. -->
+  <!-- To enable timers and messages in production use, this should be included. -->
+  <!--
+  <import resource="jbpm.jobexecutor.cfg.xml" />
+  -->
+
+</jbpm-configuration>

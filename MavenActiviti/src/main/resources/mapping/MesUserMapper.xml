@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="test.jbpm.dao.MesUserMapper" >
+	<!-- <resultMap id="BaseResultMap" type="jyd.infomysql.model.AppWxContent" >
+	    <id column="ID" property="id"  />
+	    <result column="CONTENT" property="content"  />
+	    <result column="ADD_TIME" property="addTime"  />
+   </resultMap>
+   <insert id="insert" parameterType="jyd.infomysql.model.InfoMsgContent" useGeneratedKeys="true" keyProperty="id">
+	    insert into APP_WX_CONTENT (CONTENT, ADD_TIME)
+	    values (#{content}, NOW())
+   </insert> -->
+   
+</mapper>
